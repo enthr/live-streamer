@@ -1,4 +1,4 @@
-import { createFileRoute, useRouter } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
     component: Home
@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
 function Home() {
     return (
         <main>
-            <h1>Live Streamer App</h1>
+            <h1 className="text-red-500 text-9xl">Live Streamer App</h1>
         </main>
     );
 }

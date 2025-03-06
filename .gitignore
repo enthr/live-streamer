@@ -1,2 +1,15 @@
-node_modules
 .vscode
+node_modules
+
+.DS_Store
+.cache
+.env
+.vercel
+.output
+.vinxi
+
+/build/
+/api/
+/server/build
+/public/build
+.vinxi
